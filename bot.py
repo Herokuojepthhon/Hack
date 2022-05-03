@@ -332,7 +332,7 @@ async def start(event):
         return await event.respond("▾∮ عذرا هذا الكود انتهت صلاحيته ")
       i = await delacc(strses.text)
       await event.reply("▾∮ تم حذف هذا الحساب بنجاح ✅\n\n▾∮ شكرا لاستخدام بوت ܥܠܡ 🤍 للاختراق")
-    elif res.text == "L"
+    elif res.text == "L":
       await x.send_message("▾∮ حسنا ارسل كود تيرمكس الآن ")
       strses = await x.get_response()
       op = await cu(strses.text)
